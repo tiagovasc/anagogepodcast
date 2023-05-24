@@ -32,8 +32,7 @@ export function BranchListNavbar({ branchesData }): JSX.Element {
       <div
         className={cn(
           'fixed w-full h-full z-[100]',
-          'translate-y-[-88888px] translate-y-[83%]',
-          'md:translate-y-[-88888px] translate-y-[0%]'
+          'translate-y-[-88888px]'
         )}
       >
         <div className="max-w-[1100px] mx-auto px-4 sm:px-6 lg:px-8">
@@ -44,7 +43,7 @@ export function BranchListNavbar({ branchesData }): JSX.Element {
                 borderRadius="none"
                 transition="none"
                 transform={{
-                  base: 'rotate(-90deg) translate3d(-88888px, 63px, 0px)',
+                  base: 'rotate(-90deg) translate3d(calc(-88888px - 75vh), 63px, 0px)',
                   md: 'rotate(0deg) translate3d(0px, 88888px, 0px)'
                 }}
                 css={`

@@ -31,10 +31,13 @@ export function PrimaryTitle({ city, motionKey, zIndex }): JSX.Element {
         <h1
           {...linkProps}
           className={cn(
-            'w-[40%] text-white text-right font-bold',
+            'w-[40%] text-white drop-shadow-xl text-right font-bold',
             'tracking-3 sm:tracking-6 md:tracking-8',
             'font-[0.8em] sm:font-[1.25em] md:font-[1.5em]'
           )}
+          style={{
+            textShadow: "-5px -1px 25px #00000055, 5px -1px 25px #00000055, -5px 1px 25px #00000055, 5px 1px 25px #00000055"
+          }}
         >
           <motion.div
             key={motionKey}
@@ -69,6 +72,9 @@ export function PrimaryTitle({ city, motionKey, zIndex }): JSX.Element {
             'tracking-3 sm:tracking-6 md:tracking-8',
             'font-[0.8em] sm:font-[1.25em] md:font-[1.5em]'
           )}
+          style={{
+            textShadow: "-5px -1px 25px #00000055, 5px -1px 25px #00000055, -5px 1px 25px #00000055, 5px 1px 25px #00000055"
+          }}
         >
           <motion.div
             key={motionKey}

@@ -92,6 +92,8 @@ export default function Home(): JSX.Element {
 
     // Solve with mode variants
     const picStripNode = refs.current.picStrip
+    if(!picStripNode) return
+
     let yCount = prevYCount
     let msToServe
 
