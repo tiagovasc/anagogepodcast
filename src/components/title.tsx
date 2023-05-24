@@ -36,7 +36,8 @@ export function PrimaryTitle({ city, motionKey, zIndex }): JSX.Element {
             'font-[0.8em] sm:font-[1.25em] md:font-[1.5em]'
           )}
           style={{
-            textShadow: "-5px -1px 25px #00000055, 5px -1px 25px #00000055, -5px 1px 25px #00000055, 5px 1px 25px #00000055"
+            textShadow:
+              '-5px -1px 25px #00000055, 5px -1px 25px #00000055, -5px 1px 25px #00000055, 5px 1px 25px #00000055'
           }}
         >
           <motion.div
@@ -73,7 +74,8 @@ export function PrimaryTitle({ city, motionKey, zIndex }): JSX.Element {
             'font-[0.8em] sm:font-[1.25em] md:font-[1.5em]'
           )}
           style={{
-            textShadow: "-5px -1px 25px #00000055, 5px -1px 25px #00000055, -5px 1px 25px #00000055, 5px 1px 25px #00000055"
+            textShadow:
+              '-5px -1px 25px #00000055, 5px -1px 25px #00000055, -5px 1px 25px #00000055, 5px 1px 25px #00000055'
           }}
         >
           <motion.div

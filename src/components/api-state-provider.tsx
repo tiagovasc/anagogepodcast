@@ -7,18 +7,26 @@ export interface ApiStateProviderProps {
   children: React.ReactNode
 }
 
-export function ApiStateProvider({ children }: ApiStateProviderProps): JSX.Element {
-  const { data: mainReq, isLoading: mainLoading, isError: mainError } = useQuery('main-req', () =>
+export function ApiStateProvider({
+  children
+}: ApiStateProviderProps): JSX.Element {
+  const {
+    data: mainReq,
+    isLoading: mainLoading,
+    isError: mainError
+  } = useQuery('main-req', () =>
     fetch('https://coffee-dojo-api.onrender.com/api/ig/main').then(res =>
       res.json()
     )
   )
-  const { data: branchesReq, isLoading: branchesLoading, isError: branchesError } = useQuery(
-    'branches-req',
-    () =>
-      fetch('https://coffee-dojo-api.onrender.com/api/ig/branches').then(res =>
-        res.json()
-      )
+  const {
+    data: branchesReq,
+    isLoading: branchesLoading,
+    isError: branchesError
+  } = useQuery('branches-req', () =>
+    fetch('https://coffee-dojo-api.onrender.com/api/ig/branches').then(res =>
+      res.json()
+    )
   )
 
   const { recentPosts = [] } = mainReq || {}

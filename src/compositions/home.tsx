@@ -1,6 +1,6 @@
 // @ts-nocheck
 import { useRef, useEffect, useState } from 'react'
-import cn from 'classnames' 
+import cn from 'classnames'
 
 import { useApiContext } from 'components/api-state-provider'
 import ImageBackground from 'components/image-background'
@@ -92,7 +92,7 @@ export default function Home(): JSX.Element {
 
     // Solve with mode variants
     const picStripNode = refs.current.picStrip
-    if(!picStripNode) return
+    if (!picStripNode) return
 
     let yCount = prevYCount
     let msToServe

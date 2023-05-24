@@ -53,9 +53,9 @@ export default function Gallery({ images = [] }): JSX.Element {
   }
 
   useEffect(() => {
-    const target:any = localStorage.getItem('autoSwipe')
+    const target: any = localStorage.getItem('autoSwipe')
     clearTimeout(target)
-    const autoSwipe:any = setTimeout(() => {
+    const autoSwipe: any = setTimeout(() => {
       paginate(1)
     }, 5000)
     localStorage.setItem('autoSwipe', autoSwipe)

@@ -31,7 +31,10 @@ export default function City(): JSX.Element {
       <BranchNavbar city={cityParams} />
       <div className="mx-auto max-w-[1100px] flex-wrap justify-between pb-5 px-5">
         <div className="flex flex-col md:flex-row mb-3 justify-between">
-          <Link to={'/'} className="text-[0.7em] max-w-[80px] text-stone-500 sm:tracking-1 md:tracking-2 underline underline-offset-4">
+          <Link
+            to={'/'}
+            className="text-[0.7em] max-w-[80px] text-stone-500 sm:tracking-1 md:tracking-2 underline underline-offset-4"
+          >
             {'< BACK'}
           </Link>
           <div className="flex justify-center w-full md:w-[27.375%]">

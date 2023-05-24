@@ -24,16 +24,12 @@ export function BranchNavbar({ city }): JSX.Element {
 }
 
 export function BranchListNavbar({ branchesData }): JSX.Element {
-
   const [modalIsOpen, setModalIsOpen] = useState(false)
 
   return (
     <>
       <div
-        className={cn(
-          'fixed w-full h-full z-[100]',
-          'translate-y-[-88888px]'
-        )}
+        className={cn('fixed w-full h-full z-[100]', 'translate-y-[-88888px]')}
       >
         <div className="max-w-[1100px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex w-full justify-end">
