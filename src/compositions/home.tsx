@@ -83,7 +83,7 @@ export default function Home() {
           <ToggleThemeButton />
         </div>
       </article>
-      <article className="text-black dark:text-white w-full flex flex-col items-center justify-center mx-auto gap-12">
+      <article className="text-black dark:text-white w-full flex flex-col items-center justify-center mx-auto gap-16">
         {posts.map((post, index) => (
           <Post post={post} index={index} number={posts.length - index} />
         ))}

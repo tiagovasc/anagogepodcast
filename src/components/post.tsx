@@ -81,14 +81,16 @@ export default function Post({ post, index, number }) {
             <div className="text-sm w-full max-w-xs p-4 mt-4">
               <p className="opacity-50">Timestamps:</p>
               {convertTimestampsToObjects(post.timestamps).map(timestamp => (
-                <p
+                <a
+                  target='_blank'
+                  href={`https://www.youtube.com/watch?v=${post.youtube_id}=${timestamp.seconds}`}
                   className={cn(
-                    'hover:opacity-100 cursor-pointer',
+                    'block appearance-none hover:opacity-100 cursor-pointer',
                     'opacity-50'
                   )}
                 >
                   {timestamp.time} - {timestamp.name}
-                </p>
+                </a>
               ))}
             </div>
           </div>
