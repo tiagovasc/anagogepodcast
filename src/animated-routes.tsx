@@ -3,9 +3,8 @@ import { AnimatePresence } from 'framer-motion'
 import { useEffect } from 'react'
 
 import Home from 'compositions/home'
-import City from 'compositions/city'
 
-export default function UserRoutes(): JSX.Element {
+export default function AnimatedRoutes(): JSX.Element {
   const location = useLocation()
 
   useEffect(() => {
@@ -31,7 +30,6 @@ export default function UserRoutes(): JSX.Element {
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Home />} />
-        <Route path="/:city" element={<City />} />
 
         <Route path="*" element={<Navigate to="/" replace={true} />} />
       </Routes>
