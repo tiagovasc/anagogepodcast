@@ -30,7 +30,11 @@ In this episode, we talk about Shaun’s background, the nature of phenomenology
 1:20:05 Connections with psychedelic and religious experiences
 1:25:26 Enactivist Cognition 
 1:31:22 Critique of Heidegger of social cognition
-1:35:17 History of embodiment`
+1:35:17 History of embodiment`,
+    apple_link: '',
+    spotify_link: '',
+    youtube_link: '',
+    google_link: ''
   },
   {
     title: 'Revolutionizing Psychology',
@@ -57,7 +61,11 @@ Gregg Henriques is a Full Professor and a core faculty member in James Madison U
 1:26:47 Cognitive Behavioral Therapy
 1:47:03 Cognitive vs Non-Cognitive Therapy
 1:55:52 Rigidity vs pseudoscience in therapy
-2:02:33 Conclusion`
+2:02:33 Conclusion`,
+    apple_link: '',
+    spotify_link: '',
+    youtube_link: '',
+    google_link: ''
   },
   {
     title: 'Foundations & Absurdities of Science',
@@ -81,7 +89,11 @@ In this episode, we talk about the origins of science, philosophy of science, th
 1:00:14 The tediousness of extreme detail
 1:04:49 Can science make truth claims?
 1:11:32 Philosophy of quantum mechanics
-1:15:49 The biggest challenge of science`
+1:15:49 The biggest challenge of science`,
+    apple_link: '',
+    spotify_link: '',
+    youtube_link: '',
+    google_link: ''
   },
   {
     title: 'Music, Ancient Greece, and Whitehead',
@@ -113,7 +125,11 @@ In the second half, we cover Plato and Whitehead, which was Nathan’s PhD thesi
 1:41:03 Systematic vs unsystematic philosophy
 1:45:33 Sacredness and Whitehead
 1:51:48 Conclusion
-1:54:09 Music video: History of Science`
+1:54:09 Music video: History of Science`,
+    apple_link: '',
+    spotify_link: '',
+    youtube_link: '',
+    google_link: ''
   },
   {
     title: 'The Science of Magic & Transformation',
@@ -137,7 +153,11 @@ In this episode, we talk about the origins of science, philosophy of science, th
 1:30:12 What creates the desire for personal growth
 1:38:19 Psychedelics and personal aspirations
 1:44:16 Replacing magic in modern society
-1:47:51 Conclusion`
+1:47:51 Conclusion`,
+    apple_link: '',
+    spotify_link: '',
+    youtube_link: '',
+    google_link: ''
   },
   {
     title: 'Dialogos, Wisdom, and Science',
@@ -155,7 +175,11 @@ In this episode, we talk about the origins of science, philosophy of science, th
 53:08 Trade-offs from new conceptual vocabulary and the role of the imaginal.
 1:02:12 Reaching John’s intellectual milestone
 1:07:36 Avoiding computation in CogSci programs
-1:09:53 Appreciation of John’s work `
+1:09:53 Appreciation of John’s work `,
+    apple_link: '',
+    spotify_link: '',
+    youtube_link: '',
+    google_link: ''
   },
   {
     title: 'Religious Symbolism',
@@ -172,7 +196,11 @@ In this episode, we talk about the origins of science, philosophy of science, th
 47:55 Logic, love and fractals
 53:53 Problems with secular spirituality
 56:48 Mystical experiences in Christianity
-1:03:17 Movie and novel recommendations for symbolism`
+1:03:17 Movie and novel recommendations for symbolism`,
+    apple_link: '',
+    spotify_link: '',
+    youtube_link: '',
+    google_link: ''
   },
   {
     title: 'The Psychology and Evolution of Religion',
@@ -193,7 +221,11 @@ In this episode, we talk about the origins of science, philosophy of science, th
 1:16:27 conflict between science and religion
 1:21:29 folk economics
 1:24:10 bikini selfies and income inequality
-1:27:47 paper controversy regarding religiosity, crime, and IQ`
+1:27:47 paper controversy regarding religiosity, crime, and IQ`,
+    apple_link: '',
+    spotify_link: '',
+    youtube_link: '',
+    google_link: ''
   },
   {
     title: 'Collective Knowledge and Overcoming Ignorance',
@@ -216,7 +248,11 @@ In this episode, we talk about the origins of science, philosophy of science, th
 1:24:36 unconscious competition and motivated reasoning
 1:29:35 long-term effects of exposition of ignorance
 1:33:14 individualistic vs collectivist societies
-1:40:44 culture differences of sacred values`
+1:40:44 culture differences of sacred values`,
+    apple_link: '',
+    spotify_link: '',
+    youtube_link: '',
+    google_link: ''
   },
   {
     title: 'Ontology, Mind, and Stories',
@@ -237,7 +273,11 @@ In this episode, we talk about the origins of science, philosophy of science, th
 59:55 Kant’s noumenal world and symbolism
 1:17:11 The ontology of stories and how it affects reality
 1:31:08 The abstract starts before the concrete
-1:36:21 Christ manifestation as abstract and concrete`
+1:36:21 Christ manifestation as abstract and concrete`,
+    apple_link: '',
+    spotify_link: '',
+    youtube_link: '',
+    google_link: ''
   },
   {
     title: 'The Cognitive Science of Enlightenment and Mysticism',
@@ -253,7 +293,11 @@ In this episode, we talk about the origins of science, philosophy of science, th
 27:46 Transformation experiences
 37:45 Wisdom and mystical states
 53:03 The role of imagination
-1:07:46 The cognitive continuum book`
+1:07:46 The cognitive continuum book`,
+    apple_link: '',
+    spotify_link: '',
+    youtube_link: '',
+    google_link: ''
   },
   {
     title: 'Morality, Psychedelics and Panphychism',
@@ -267,6 +311,10 @@ In this episode, we talk about the origins of science, philosophy of science, th
 39:32 Materialism
 53:54 Emergence and epiphenomenalism
 1:19:08 Whitehead metaphysics
-1:37:22 Prajna and mystical states`
+1:37:22 Prajna and mystical states`,
+    apple_link: '',
+    spotify_link: '',
+    youtube_link: '',
+    google_link: ''
   }
 ]

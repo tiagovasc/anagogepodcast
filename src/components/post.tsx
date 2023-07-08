@@ -1,3 +1,9 @@
+import {
+  PiApplePodcastsLogo,
+  PiSpotifyLogo,
+  PiYoutubeLogo,
+  PiGooglePodcastsLogo
+} from 'react-icons/pi'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useState } from 'react'
 import cn from 'classnames'
@@ -78,20 +84,40 @@ export default function Post({ post, index, number }) {
               </div>
               {post.description}
             </p>
-            <div className="text-sm w-full max-w-xs p-4 mt-4">
-              <p className="opacity-50">Timestamps:</p>
-              {convertTimestampsToObjects(post.timestamps).map(timestamp => (
-                <a
-                  target='_blank'
-                  href={`https://www.youtube.com/watch?v=${post.youtube_id}=${timestamp.seconds}`}
-                  className={cn(
-                    'block appearance-none hover:opacity-100 cursor-pointer',
-                    'opacity-50'
+            <div className="text-xs w-full max-w-xs p-4 mt-4">
+              <div className="h-full flex flex-col gap-6">
+                <div className="flex gap-3">
+                  <a href={post.apple_link} target="_blank">
+                    <PiApplePodcastsLogo className="w-7 h-7" />
+                  </a>
+                  <a href={post.spotify_link} target="_blank">
+                    <PiSpotifyLogo className="w-7 h-7" />
+                  </a>
+                  <a href={post.youtube_link} target="_blank">
+                    <PiYoutubeLogo className="w-7 h-7" />
+                  </a>
+                  <a href={post.google_link} target="_blank">
+                    <PiGooglePodcastsLogo className="w-7 h-7" />
+                  </a>
+                </div>
+                <span className="flex flex-col gap-[0.125rem]">
+                  <p className="opacity-50 dark:opacity-75">Timestamps:</p>
+                  {convertTimestampsToObjects(post.timestamps).map(
+                    timestamp => (
+                      <a
+                        target="_blank"
+                        href={`https://www.youtube.com/watch?v=${post.youtube_id}=${timestamp.seconds}`}
+                        className={cn(
+                          'block appearance-none hover:opacity-100 dark:hover:opacity-100 cursor-pointer',
+                          'opacity-50 dark:opacity-75'
+                        )}
+                      >
+                        {timestamp.time} - {timestamp.name}
+                      </a>
+                    )
                   )}
-                >
-                  {timestamp.time} - {timestamp.name}
-                </a>
-              ))}
+                </span>
+              </div>
             </div>
           </div>
         </motion.div>
