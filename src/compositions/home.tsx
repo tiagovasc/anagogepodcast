@@ -13,7 +13,7 @@ import spotifyIcon from 'assets/images/spotify.png'
 import youtubeIcon from 'assets/images/youtube.png'
 import anagogeIcon from 'assets/images/anagoge.png'
 
-import { posts } from 'utils/posts'
+import posts from 'utils/posts.json'
 
 export default function Home() {
   const scrollCountRef = useRef(0)
